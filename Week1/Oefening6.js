@@ -1,6 +1,6 @@
 var delay = 1000;
 
-var arrayElements0 = new Array("Test0", "Test1", "Test2", "Test3", "Test4");
+var arrayElements0 = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8);
 var arrayElements1 = new Array();
 
 function loadAsync(element, delay, callback) {
