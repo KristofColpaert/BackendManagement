@@ -1,0 +1,1 @@
+console.log("Welkom ", process.argv[2]);
