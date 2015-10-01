@@ -22,23 +22,7 @@ var newModule = (function() {
     var loadArrayAsync = function (arrayA , elements, cb) {
         start = new Date().getTime();
 
-        elements.forEach(function(element, index) {
-            loadAsync(element, function (error, element) {
 
-                if(error) {
-                    arrayA[index] = element;
-                    cb(error, null);
-                }
-
-                else {
-                    arrayA[index] = element;
-                    console.log(arrayA[index]);
-                    if (++index === elements.length) {
-                        cb(null, arrayA);
-                    }
-                }
-            });
-        });
     };
 
     //Return
