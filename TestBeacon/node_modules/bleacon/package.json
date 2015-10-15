@@ -1,0 +1,56 @@
+{
+  "name": "bleacon",
+  "version": "0.4.0",
+  "description": "A Node.js library for creating, discovering, and configuring iBeacons",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint *.js lib/*.js bleu-station/*.js estimote/*.js estimote-sticker/*.js radbeacon/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandeepmistry/node-bleacon.git"
+  },
+  "keywords": [
+    "ibeacon"
+  ],
+  "author": {
+    "name": "Sandeep Mistry"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandeepmistry/node-bleacon/issues"
+  },
+  "dependencies": {
+    "bignum": "^0.11.0",
+    "bleno": "^0.2.0",
+    "debug": "^2.2.0",
+    "noble": "^1.1.0",
+    "noble-device": "^1.1.0"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.11",
+    "async": "~0.2.9"
+  },
+  "gitHead": "bbb466d5971a20fc0241b0a977b06eb03badbdc9",
+  "homepage": "https://github.com/sandeepmistry/node-bleacon",
+  "_id": "bleacon@0.4.0",
+  "_shasum": "ae4e4f52bfdb0f8dd55d52f5730f781627adcf19",
+  "_from": "bleacon@*",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "sandeepmistry",
+    "email": "sandeep.mistry@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sandeepmistry",
+      "email": "sandeep.mistry@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ae4e4f52bfdb0f8dd55d52f5730f781627adcf19",
+    "tarball": "http://registry.npmjs.org/bleacon/-/bleacon-0.4.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bleacon/-/bleacon-0.4.0.tgz"
+}
