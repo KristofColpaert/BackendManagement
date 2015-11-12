@@ -79,12 +79,12 @@ var staticServer = (function () {
                     }
                     //API oproepen
                     var getAPIData = require("./getAPIData.js"),
-                    qryParts = url.parse(req.url).query.split("="); //array                                       
+                    qryParts = url.parse(req.url).query.split("="); //array
                     getAPIData.callAPI(qryParts[1], req, res);
                     
-                    //getAPIData.on('apiData', function (jsonItems) { 
-                    //// not a function (emitter) yet 
-                    //})
+                    getAPIData.on('apiData', function (jsonItems) {
+                        console.log(jsonItems);
+                    });
                     
                     break;
                 default:
