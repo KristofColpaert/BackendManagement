@@ -1,0 +1,2 @@
+D:\ServerSideApp-2015\week04-Rest\Temp\NodejsWebApp1\bin\Microsoft.NodejsTools.WebRole.dll
+D:\ServerSideApp-2015\week04-Rest\Temp\NodejsWebApp1\obj\Debug\NodejsWebApp1.njsprojResolveAssemblyReference.cache
