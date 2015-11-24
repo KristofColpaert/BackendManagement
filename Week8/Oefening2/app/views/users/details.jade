@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+    h1 Gegevens voor #{user.name}
+    form(action="/users/" + encodeURIComponent(user.username), method="POST")
+        input(name="_method", type="hidden", value="DELETE")
+        input(type="submit", value="Delete")

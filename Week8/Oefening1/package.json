@@ -1,0 +1,22 @@
+{
+  "name": "oefening1",
+  "version": "0.0.1",
+  "description": "Oefening1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "keywords": [
+    "/"
+  ],
+  "author": "Kristof Colpaert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-generator": "^4.13.1"
+  }
+}

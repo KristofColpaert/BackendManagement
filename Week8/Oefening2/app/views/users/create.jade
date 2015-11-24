@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+   form(method="POST", action="/users")
+      p
+         label(for="username") Username<br />
+         input#username(name="username")
+      p
+         input(type="submit", value="Create")

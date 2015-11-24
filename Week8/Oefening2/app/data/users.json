@@ -1,0 +1,12 @@
+{
+    "johan": {
+    "username": "Johan",
+        "name": "Vannieuw",
+        "profession": "docent"
+    },
+    "lambik": {
+    "username": "Lambik",
+        "name": "Vandersteen",
+        "profession": "student"
+    }
+}

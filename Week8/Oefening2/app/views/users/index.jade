@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+    h1= title
+    p
+        a(href="/users/new") Maak een nieuwe gebruiker aan
+    ul
+        each user in users
+            li
+                a(href="/users/" + encodeURIComponent(user.username)) #{user.username}
